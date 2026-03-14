@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">任务方块</string>
+
+    <!-- Home / Splash -->
+    <string name="app_tagline">一款简洁的任务管理软件</string>
+    <string name="home_logo_cd">任务方块 Logo</string>
+    <string name="detail">详情</string>
+    <string name="cancel">取消</string>
+    <string name="complete">完成</string>
+    <string name="complete_rating">完成评分</string>
+    <string name="rating_normal">一般</string>
+    <string name="rating_good">好</string>
+    <string name="rating_very_good">非常好</string>
+    <string name="rating_confirm_hint">选择评分后点击确定</string>
+    <string name="confirm">确定</string>
+    <string name="kanban_entry">完成看板</string>
+
+    <!-- Task detail / edit -->
+    <string name="task_detail">任务详情</string>
+    <string name="title">标题</string>
+    <string name="importance">重要性</string>
+    <string name="category">分类</string>
+    <string name="description">描述</string>
+    <string name="edit">编辑</string>
+    <string name="record">记录</string>
+    <string name="back">返回</string>
+    <string name="loading">加载中…</string>
+    <string name="record_brief_empty">（无文字）</string>
+    <string name="record_image_tag">图</string>
+    <string name="record_doc_tag">文</string>
+
+    <!-- Importance levels (four quadrants) -->
+    <string name="importance_low">不重要不紧急</string>
+    <string name="importance_medium">不重要但紧急</string>
+    <string name="importance_high">重要但不紧急</string>
+    <string name="importance_urgent">重要而且紧急</string>
+
+    <!-- Default categories (for DB init / clear) -->
+    <string name="category_work">工作</string>
+    <string name="category_life">生活</string>
+    <string name="category_study">学习</string>
+    <string name="category_other">其他</string>
+
+    <!-- Add/Edit task -->
+    <string name="edit_task">编辑任务</string>
+    <string name="add_task">新增任务</string>
+    <string name="description_optional">描述（选填）</string>
+    <string name="importance_quadrant">重要性（四象限）</string>
+    <string name="save">保存</string>
+    <string name="add">添加</string>
+    <string name="set_deadline">设置截止日期</string>
+    <string name="deadline">截止日期</string>
+    <string name="days_left">%d天</string>
+    <string name="overdue">逾期</string>
+
+    <!-- Record edit -->
+    <string name="add_record">添加记录</string>
+    <string name="record_content">记录内容</string>
+    <string name="upload_image">上传图片</string>
+    <string name="upload_document">上传文档</string>
+    <string name="selected_media">已选：%1$d 张图片，%2$d 个文档</string>
+
+    <!-- Record detail -->
+    <string name="record_detail">记录详情</string>
+    <string name="attachments">附件</string>
+    <string name="image">图片</string>
+    <string name="document">文档</string>
+    <string name="no_text_content">（无文字内容）</string>
+
+    <!-- Kanban -->
+    <string name="select_tasks">选择任务</string>
+    <string name="completed_kanban">已完成看板</string>
+    <string name="select_all">全选</string>
+    <string name="delete">删除</string>
+    <string name="no_completed_this_month">本月暂无已完成任务</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="confirm_delete_completed">删除后数据将不被保存，且附件将一并删除。确定要删除选中的 %d 个已完成任务吗？</string>
+
+    <!-- Data management -->
+    <string name="data_management">数据管理</string>
+    <string name="task_stats">任务统计</string>
+    <string name="total_tasks">总任务</string>
+    <string name="active_tasks">在手任务</string>
+    <string name="completed_tasks">已完成</string>
+    <string name="backup_import">备份与导入</string>
+    <string name="backup">备份</string>
+    <string name="import_data">导入</string>
+    <string name="backup_hint">备份为 ZIP（含图片和文档），也支持导入旧版 JSON</string>
+    <string name="clear_data">清空数据</string>
+    <string name="confirm_clear">确认清空</string>
+    <string name="confirm_clear_message">数据清空后无法恢复，包括所有任务、记录及附件。确定要清空所有数据吗？</string>
+    <string name="data_cleared">数据已清空</string>
+    <string name="count_units">%d 个</string>
+    <string name="backup_success">备份成功（含图片和文档）</string>
+    <string name="backup_failed">备份失败: %s</string>
+    <string name="cannot_read_file">无法读取文件</string>
+    <string name="import_success">导入成功（含图片和文档）</string>
+    <string name="import_format_error">数据格式错误，请选择正确的 taskblocks 备份文件</string>
+    <string name="import_failed">导入失败: %s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">任务方块设置</string>
+    <string name="settings">设置</string>
+    <string name="category_management">分类管理</string>
+    <string name="delete_category">删除分类</string>
+    <string name="confirm_delete_category">确定删除「%1$s」？若该分类下有未完成任务则无法删除。</string>
+    <string name="category_deleted">已删除</string>
+    <string name="category_has_tasks">该分类下仍有任务，无法删除</string>
+    <string name="edit_category">编辑分类</string>
+    <string name="add_category">新增分类</string>
+    <string name="category_name">分类名称</string>
+    <string name="color">颜色</string>
+    <string name="new_category_btn">+ 新增分类</string>
+    <string name="block_style">方块样式</string>
+    <string name="block_style_default">默认</string>
+    <string name="block_style_cube_3d">立体</string>
+    <string name="block_style_metal">金属</string>
+    <string name="block_style_wood">木材</string>
+
+    <!-- ViewModel / messages -->
+    <string name="grid_full_message">先处理在手任务</string>
+</resources>
