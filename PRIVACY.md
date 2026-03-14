@@ -1,6 +1,6 @@
 # Privacy Policy for Task Blocks
 
-**Last updated:** [填写日期，如 February 2025]
+**Last updated:** [15th,March,2026]
 
 ## Overview
 
@@ -36,7 +36,7 @@ We may update this Privacy Policy from time to time. We will notify you of chang
 
 ## Contact Us
 
-If you have questions about this Privacy Policy, please contact us at: [你的邮箱，如 your-email@example.com]
+If you have questions about this Privacy Policy, please contact us at: [kennyliu188@hotmail.com]
 
 ## Third-Party Links
 
